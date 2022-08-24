@@ -4,21 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7d5f95b-c274-4d33-ac54-490e7ffaeac8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/klosowsky/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/klosowsky/AppTest.java" afterDir="false" />
+    <list default="true" id="c7d5f95b-c274-4d33-ac54-490e7ffaeac8" name="Changes" comment="Init">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/input.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/klosowsky/MathOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/klosowsky/ComputeResultTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/klosowsky/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/klosowsky/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/klosowsky/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="JSON_handle" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -34,10 +75,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/gitRes/InteliJ IDEA Ultimate/my_shop"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.klosowsky.App" />
       <module name="Calculator" />
@@ -45,6 +88,103 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ComputeResultTest.ComputeResultDivisionWithZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klosowsky.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.klosowsky" />
+      <option name="MAIN_CLASS_NAME" value="com.klosowsky.ComputeResultTest" />
+      <option name="METHOD_NAME" value="ComputeResultDivisionWithZeroTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputeResultTest.fiveMultipleByFourIsTwenty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klosowsky.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.klosowsky" />
+      <option name="MAIN_CLASS_NAME" value="com.klosowsky.ComputeResultTest" />
+      <option name="METHOD_NAME" value="fiveMultipleByFourIsTwenty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputeResultTest.sevenMinusFourIsThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klosowsky.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.klosowsky" />
+      <option name="MAIN_CLASS_NAME" value="com.klosowsky.ComputeResultTest" />
+      <option name="METHOD_NAME" value="sevenMinusFourIsThreeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputeResultTest.squareRootOfNine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klosowsky.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.klosowsky" />
+      <option name="MAIN_CLASS_NAME" value="com.klosowsky.ComputeResultTest" />
+      <option name="METHOD_NAME" value="squareRootOfNine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputeResultTest.threePlusFourIsSevenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klosowsky.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.klosowsky" />
+      <option name="MAIN_CLASS_NAME" value="com.klosowsky.ComputeResultTest" />
+      <option name="METHOD_NAME" value="threePlusFourIsSevenTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="JUnit.ComputeResultTest.ComputeResultDivisionWithZeroTest" />
+      <item itemvalue="JUnit.ComputeResultTest.fiveMultipleByFourIsTwenty" />
+      <item itemvalue="JUnit.ComputeResultTest.sevenMinusFourIsThreeTest" />
+      <item itemvalue="JUnit.ComputeResultTest.squareRootOfNine" />
+      <item itemvalue="JUnit.ComputeResultTest.threePlusFourIsSevenTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ComputeResultTest.squareRootOfNine" />
+        <item itemvalue="JUnit.ComputeResultTest.fiveMultipleByFourIsTwenty" />
+        <item itemvalue="JUnit.ComputeResultTest.threePlusFourIsSevenTest" />
+        <item itemvalue="JUnit.ComputeResultTest.sevenMinusFourIsThreeTest" />
+        <item itemvalue="JUnit.ComputeResultTest.ComputeResultDivisionWithZeroTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,8 +194,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661264403188</updated>
-      <workItem from="1661264404890" duration="120000" />
+      <workItem from="1661264404890" duration="17630000" />
+      <workItem from="1661286082411" duration="2502000" />
+      <workItem from="1661339718359" duration="1758000" />
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <created>1661264661336</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661264661336</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,5 +221,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
 </project>
