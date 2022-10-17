@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7d5f95b-c274-4d33-ac54-490e7ffaeac8" name="Changes" comment="Init">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/input.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/klosowsky/MathOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/klosowsky/ComputeResultTest.java" afterDir="false" />
+    <list default="true" id="c7d5f95b-c274-4d33-ac54-490e7ffaeac8" name="Changes" comment="Final app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/klosowsky/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/klosowsky/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/klosowsky/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/gitRes/InteliJ IDEA Ultimate/my_shop"
+    "last_opened_file_path": "D:/gitRes/InteliJ IDEA Ultimate/Calculator"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Unnamed">
@@ -196,7 +190,8 @@
       <updated>1661264403188</updated>
       <workItem from="1661264404890" duration="17630000" />
       <workItem from="1661286082411" duration="2502000" />
-      <workItem from="1661339718359" duration="1758000" />
+      <workItem from="1661339718359" duration="2409000" />
+      <workItem from="1665999955906" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1661264661336</created>
@@ -205,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661264661336</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Final app">
+      <created>1661349351787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661349351787</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +226,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Final app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final app" />
   </component>
 </project>
